@@ -11,3 +11,11 @@ h1 {
 .logo {
     
 }
+
+h2 {
+    font-size: 3rem;
+}
+
+.rules-list {
+    font-size: 2rem;
+}
