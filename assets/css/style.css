@@ -5,17 +5,15 @@ body {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 3.8rem;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .logo {
-    
+    width: 13vw;
+    height: 20vh;
 }
 
-h2 {
-    font-size: 3rem;
-}
-
-.rules-list {
-    font-size: 2rem;
-}
