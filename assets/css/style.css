@@ -17,6 +17,10 @@ nav {
     text-align: center;
 }
 
+.nav-bar {
+    size: 10rem;
+}
+
 nav li {
     display: inline;
     margin: auto 15px;
@@ -29,6 +33,7 @@ nav a {
     text-decoration: none;
     color: black;
     background-color: lightseagreen;
+    
 }
 
 nav a:hover {
@@ -36,7 +41,7 @@ nav a:hover {
 }
 
 .logo {
-    width: 13vw;
+    width: 10vw;
     height: 20vh;
     margin-top: 15px;
 }
