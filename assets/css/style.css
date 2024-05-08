@@ -2,10 +2,12 @@ body {
     background-color: lightseagreen;
     text-align: center;
     color: white;
+    font-family: "Oswald", sans-serif;
 }
 
 h1 {
     font-size: 3.8rem;
+    font-family: "Oswald", sans-serif;
 }
 
 ul {
@@ -46,3 +48,29 @@ nav a:hover {
     margin-top: 15px;
 }
 
+/* Style btn class */
+.btn {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+/* Style footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer li {
+    display: inline;
+    padding-right: 20px;
+    font-size: 1.5em;
+    color: white;
+    font-size: 50px;
+  }
+
+  footer a {
+    color: white;
+  }
