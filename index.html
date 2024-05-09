@@ -55,7 +55,7 @@
                 <div id="#open-introduction-popup" class="popupDialog openPopup">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <h3 class="popup-title">Introduction</h3>
+                        <h2 class="popup-title">Introduction</h2>
                         <p>
                             Rock, Paper, Scissors, Lizard, Spock is an expansion on the original version "Rock, Paper, Scissors",
                             <br>
@@ -67,11 +67,11 @@
 
             <!-- Rules popup -->
             <div class="popup">
-                <a class="menu-button" id="introduction" href="#open-introduction-popup">Rules</a>
-                <div id="#open-introduction-popup" class="popupDialog openPopup">
+                <a class="menu-button" id="rules" href="#open-rules-popup">Rules</a>
+                <div id="#open-rules-popup" class="popupDialog openPopup">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <h3 class="popup-title">Rules</h3>
+                        <h2 class="popup-title">Rules</h2>
                         <p>
                             In Rock, Paper, Scissors, Lizard, Spock:
                             <br>
@@ -103,17 +103,39 @@
             </div>
         </div>
 
-        <!-- Rules section -->
-        <div id="rules-section">
-            <h2>Rules</h2>
-            <h3>How to play Rock, Paper, Scissors, Lizard, Spock</h3>
-            <p>In Rock, Paper, Scissors, Lizard, Spock: Scissors cut Paper, Paper covers Rock, Rock crushes Lizard,
-              Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper,
-              Paper disproves Spock, Spock vaporizes Rock, and Rock crushes Scissors.
-            </p>
+        <!-- Start Game popup -->
+        <a class="menu-button" href="start-game.html">Start Game</a>
+
+        <!-- Feedback popup -->
+        <div class="popup">
+            <a class="menu-button" id="feedback" href="#open-feedback-popup">Feedback</a>
+            <div id="#open-feedback-popup" class="popupDialog openPopup">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <div class="form">
+                        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact_form">
+                            <h2>Feedback</h2>
+                            <label for="fname">First Name</label>
+                            <input class="text_input" id="fname" name="first_name" type="text" placeholder="Write your first name here.." required />
+
+                            <label for="lname">Last Name</label>
+                            <input class="text_input" id="lname" name="last_name" type="text" placeholder="Write your last name here.." required />
+
+                            <label for="email">Email Address</label>
+                            <input class="text_input" type="email" id="email" name="email_address" placeholder="Write your email address here.." required />
+
+                            <label for="feedback">Your Feedback</label>
+                            <textarea id="feedback" name="feedback" placeholder="Write your feedback here.." required></textarea>
+
+                            <input type="submit" class="submit_button" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+
+         
     </main>
 
     <footer>
