@@ -18,38 +18,65 @@
             </h1>
         </div>
 
-            <!--Navigation bar-->
+        <!--Main image-->
+        <div id="main-image">
+            <img class="logo" src="assets/images/rock logo.png"  alt="Rock logo"> 
+            <img class="logo" src="assets/images/paper logo.png" alt="Paper logo"> 
+            <img class="logo" src="assets/images/scissors logo.jpeg" alt="Scissors logo">
+            <img class="logo" src="assets/images/lizard logo.png" alt="Lizard logo">
+            <img class="logo" src="assets/images/spock logo.jpeg" alt="Spock logo">
+        </div>
+
+        <!--Navigation bar-->
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a class="btn" href="#home-section">Home</a>
+                    <a class="btn" href="#intro-section">Introduction</a>
                 </li>
                 <li>
                     <a class="btn" href="#rules-section">Rules</a>
                 </li>
                 <li>
-                    <a class="btn" href="#game-section">Game</a>
+                    <a class="btn" href="#game-section">Start Game</a>
+                </li>
+                <li>
+                    <a class="btn" href="#feedback-section">Feedback</a>
                 </li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <!--Main image-->
-        <div id="main-image">
-            <img class="logo" src="assets/images/rock logo.png"  alt="Rock logo"> 
-            <img class="logo" src="assets/images/paper logo.png" alt="Paper logo"> 
-            <img class="logo" src="assets/images/scissors logo.jpeg" alt="Scissors logo">
-            <br>
-            <img class="logo" src="assets/images/lizard logo.png" alt="Lizard logo">
-            <img class="logo" src="assets/images/spock logo.jpeg" alt="Spock logo">
+        <!-- Introduction -->
+        <div class="nav-buttons">
+            <div class="popup">
+                <a class="menu-button" id="introduction" href="#open-introduction-popup">Introduction</a>
+                <div id="#open-introduction-popup" class="popupDialog openPopup">
+                    <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h3 class="popup-title">Introduction</h3>
+                        <p>
+                            Rock, Paper, Scissors, Lizard, Spock is an expansion on the original version "Rock, Paper, Scissors",
+                            <br>
+                            Which provides more options to choose from which will result in less draws between players making the game more entertaining.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <!--Interactive Buttons-->
-        <div>
-            <button class="btn" id="start-game-btn">Start Game</button>
-            <button class="btn open-popup-btn" id="open-feedback-btn">Feedback</button>
+        <!-- Rules section -->
+        <div id="rules-section">
+            <h2>Rules</h2>
+            <h3>How to play Rock, Paper, Scissors, Lizard, Spock</h3>
+            <p>In Rock, Paper, Scissors, Lizard, Spock: Scissors cut Paper, Paper covers Rock, Rock crushes Lizard,
+              Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper,
+              Paper disproves Spock, Spock vaporizes Rock, and Rock crushes Scissors.
+            </p>
         </div>
+
+        
     </main>
 
     <footer>
