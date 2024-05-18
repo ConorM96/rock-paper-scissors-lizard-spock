@@ -29,31 +29,38 @@
     </header>
     
     <main>
-        <!-- Menu Options -->
-        <div class="nav-buttons">
-            <!-- Introduction popup -->
+    
+        <!-- Navigation buttons and Pop ups -->
+        <div class="nav_buttons">
             <div class="popup">
-                <a class="menu-button" id="introduction" href="#open-introduction-popup">Introduction</a>
-                <div id="#open-introduction-popup" class="popupDialog openPopup">
+                <a class="menu-buttons" id="menu" href="#open_intro_popup">Introduction</a>
+                <div id="open_intro_popup" class="popupDialog openPopup">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <h2 class="popup-title">Introduction</h2>
+                        <h2 class="popup_title">Introduction</h2>
                         <p>
-                            Rock, Paper, Scissors, Lizard, Spock is an expansion on the original version "Rock, Paper, Scissors",
+                            Rock, Paper, Scissors, Lizard, Spock 
                             <br>
-                            Which provides more options to choose from which will result in less draws between players making the game more entertaining.
+                            is an expansion on the original version
+                            <br>
+                            "Rock, Paper, Scissors", which provides
+                            <br>
+                            more options to choose from,
+                            <br>
+                            which will result in less draws between
+                            <br>
+                            players making the game more entertaining.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <!-- Rules popup -->
             <div class="popup">
-                <a class="menu-button" id="rules" href="#open-rules-popup">Rules</a>
-                <div id="#open-rules-popup" class="popupDialog openPopup">
+                <a class="menu-buttons" href="#open_rules_popup">Rules</a>
+                <div id="open_rules_popup" class="popupDialog openPopup">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <h2 class="popup-title">Rules</h2>
+                        <h2 class="modal_title">Rules</h2>
                         <p>
                             In Rock, Paper, Scissors, Lizard, Spock:
                             <br>
@@ -83,43 +90,45 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Start Game popup -->
-        <a class="menu-button" href="start-game.html">Start Game</a>
+            <a class="menu-buttons" href="start_game.html">Start Game</a>
 
-        <!-- Feedback popup -->
-        <div class="popup">
-            <a class="menu-button" id="feedback" href="#open-feedback-popup">Feedback</a>
-            <div id="#open-feedback-popup" class="popupDialog openPopup">
-                <div>
-                    <a href="#close" title="Close" class="close">X</a>
-                    <div class="form">
-                        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact_form">
-                            <h2>Feedback</h2>
-                            <label for="fname">First Name</label>
-                            <input class="text_input" id="fname" name="first_name" type="text" placeholder="Write your first name here.." required />
+            <div class="popup">
+                <a class="menu-buttons" href="#open_feedback_popup">Feedback</a>
+                <div id="open_feedback_popup" class="popupDialog openPopup">
+                    <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <div class="form_layout">
+                            <div class="form">
+                                <form method="POST" action="https://formdump.codeinstitute.net/" class="feedback_form">
+                                    <h2>Feedback</h2>
+                                    <label for="fname">First Name</label>
+                                    <input class="text_input" id="fname" name="first_name" type="text" placeholder="Write your first name here" required />
 
-                            <label for="lname">Last Name</label>
-                            <input class="text_input" id="lname" name="last_name" type="text" placeholder="Write your last name here.." required />
+                                    <label for="lname">Last Name</label>
+                                    <input class="text_input" id="lname" name="last_name" type="text" placeholder="Write your last name here" required />
 
-                            <label for="email">Email Address</label>
-                            <input class="text_input" type="email" id="email" name="email_address" placeholder="Write your email address here.." required />
+                                    <label for="email">Email Address</label>
+                                    <input class="text_input" type="email" id="email" name="email_address" placeholder="Write your email address here" required />
 
-                            <label for="feedback">Your Feedback</label>
-                            <textarea id="feedback" name="feedback" placeholder="Write your feedback here.." required></textarea>
+                                    <label for="feedback">Your Message</label>
+                                    <textarea id="feedback" name="feedback" placeholder="Write your message here" required></textarea>
 
-                            <input type="submit" class="submit_button" value="Submit" />
-                        </form>
+                                    <input type="submit" class="submit_button" value="Submit" />
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 
+
          
     </main>
-
+    
+    <!-- Footer and social media links -->
     <footer>
         <ul id="social-networks">
             <li>
