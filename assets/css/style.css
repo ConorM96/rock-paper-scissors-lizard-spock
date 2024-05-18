@@ -7,13 +7,13 @@ body {
 
 /* Heading */
 h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     font-family: "Oswald", sans-serif;
 }
 
 .logo {
-    width: 17%;
-    height: 34%;
+    width: 15%;
+    height: 30%;
     margin-top: 10px;
 }
 
