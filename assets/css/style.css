@@ -134,14 +134,15 @@ footer {
     margin-top: 20px;
   }
   
-  footer li {
+footer li {
     display: inline;
     padding-right: 40px;
     font-size: 1.5em;
     color: white;
     font-size: 50px;
-  }
+}
 
-  footer a {
+footer a {
     color: white;
-  }
+}
+
