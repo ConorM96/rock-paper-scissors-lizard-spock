@@ -146,3 +146,54 @@ footer a {
     color: white;
 }
 
+/* Scoreboard area */
+.user_score_display {
+  margin: 30px;
+  float: left;
+}
+
+.computer_score_display {
+  margin: 30px;
+  float: right;
+}
+
+/* Game area */
+.game_area {
+  clear: both;
+  text-align: center;
+}
+
+.game_area h2 {
+  margin-top: 25px;
+}
+
+.game_area i {
+  font-size: 3em;
+}
+
+/* Style feedback and buttons area */
+#game_feedback {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#result-section {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.select-weapon {
+  text-align: center;
+  margin: 15px;
+}
+
+.game-button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 2em;
+  border: 2.5px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+  margin: 8px 8px;
+}
