@@ -22,80 +22,71 @@
         </div>
     </header>
 
-    <!--Scoreboard-->
-    <div class="scoreboard">
-        <h2 class="user_score_display">User: <span id="user-score">0</span></h2>
-        <h2 class="computer_score_display">CPU: <span id="computer-score">0</span></h2>
-    </div>
+    <!-- Display scoreboard and User/CPU choices -->
+    <section>
+        <div class="display_area">
+            <h2 id="result_display">Result: <span id="result"></span></h2>
 
-    <!--Game area-->
-    <div class="game_area">
-        <h2>Player choice:</h2>
-        <i id="user-icon" class="fas fa-question"></i>
-        <h2 id="vs-label">VS.</h2>
-        <h2>Computer choice:</h2>
-        <i id="computer-icon" class="fas fa-question"></i>
-    </div>
+            <div class="score-board">
+                <div id="user_label" class="tag-name">PLAYER</div>
+                <div id="computer_label" class="tag-name">CPU</div>
+                <span id="user_score">0</span> : <span id="computer_score">0</span>
+            </div>
 
-     <!--Game feedback section -->
-     <div id="game_feedback">
-        <h3 id="result-section">Ready...</h3>
-        <h3>Select your weapon</h3>
-    </div>
+            <div class="choice_area">
+                <div class="player_area">
+                    <h2>
+                        Player Choice:
+                        <br />
+                        <span id="user_choice"></span>
+                    </h2>
+                </div>
 
-    <!--Game weapons section -->
-    <div class="select-weapon">
-        <button data-type="rock" id="rock-button" class="game-button" aria-label="Button to play rock.">
-            <i class="fas fa-hand-rock"></i>
-        </button>
-        <button data-type="paper" id="paper-button" class="game-button" aria-label="Button to play paper.">
-            <i class="far fa-hand-paper"></i>
-        </button>
-        <button data-type="scissors" id="scissors-button" class="game-button"
-            aria-label="Button to play scissors.">
-            <i class="fas fa-hand-scissors"></i>
-        </button>
-        <button data-type="lizard" id="lizard-button" class="game-button" aria-label="Button to play lizard.">
-            <i class="fas fa-hand-lizard"></i>
-        </button>
-        <button data-type="spock" id="spock-button" class="game-button" aria-label="Button to play spock.">
-            <i class="fas fa-hand-spock"></i>
-        </button>
-    </div>
+                <div class="computer_area">
+                    <h2>
+                        Computer Choice:
+                        <br />
+                        <span id="computer_choice"></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weapon buttons -->
+    <section>
+        <div class="weapons_area">
+            <h2 id="weapon_txt">Select your weapon</h2>
+
+            <div class="weapons">
+                <button onclick="selectRock()" id="Rock" class="button_big button_white">
+                    <i class="far fa-hand-rock weapon"></i>
+                </button>
+                <button onclick="selectPaper()" id="Paper" class="button_big button_white">
+                    <i class="far fa-hand-paper weapon"></i>
+                </button>
+                <button onclick="selectScissors()" id="Scissors" class="button_big button_white">
+                    <i class="far fa-hand-scissors weapon"></i>
+                </button>
+            </div>
+
+            <div class="weapons_bottom">
+                <button onclick="selectLizard()" id="Lizard" class="button_big button_white">
+                    <i class="far fa-hand-lizard weapon"></i>
+                </button>
+                <button onclick="selectSpock()" id="Spock" class="button_big button_white">
+                    <i class="far fa-hand-spock weapon"></i>
+                </button>
+            </div>
+        </div>
+    </section>
 
     <!-- Main menu button -->
     <section>
-        <a class="menu-buttons" href="index.html">Main Menu</a>
+        <a class="menu-buttons"  href="index.html">Main Menu</a>
     </section>
 
-    <!-- Footer and social media links -->
-    <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/9c90b8d6da.js" crossorigin="anonymous"></script>
+    <!-- JavaScript link -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>

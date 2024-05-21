@@ -3,6 +3,7 @@ body {
     text-align: center;
     color: white;
     font-family: "Oswald", sans-serif;
+    height: 100%;
 }
 
 /* Heading */
@@ -23,6 +24,16 @@ h1 {
   width: 30%;
   font-size: 1.5em;
   padding: 1em 1em;
+  margin-top: 2%;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.play-again-button {
+  background-color: #ffffff;
+  width: 30%;
+  font-size: .7em;
+  padding: .4em .4em;
   margin-top: 2%;
   display: inline-block;
   border-radius: 20px;
@@ -75,6 +86,7 @@ h1 {
   padding-right: 2%;
   padding-left: 2%;
   padding-top: 2%;
+  padding-bottom: 2%;
   text-decoration: none;
 }
 
@@ -83,29 +95,29 @@ h1 {
 }
 
 /* Feedback Pop up */
-.feedback_form {
+.feedback-form {
   color: black;
   background-color: #ffffff;
   border-radius: 5px;
   padding: 20px;
   margin: 0 auto;
   margin-top: 1.5%;
-  max-width: 450px;
+  width: 80%;
 }
 
 .text_input {
   background-color: white;
-  margin: 7px 0 22px 0;
+  margin: 4px 0 18px 0;
   border: 3px solid black;
-  border-radius: 10px;
+  border-radius: 16px;
   padding-left: 1.5%;
-  width: 100%;
+  width: 96%;
   height: 20px;
 }
 
 #feedback {
   border-radius: 10px;
-  width: 100%;
+  width: 96%;
   height: 4rem;
   padding-left: 2%;
   padding-top: 2%;
@@ -127,11 +139,115 @@ a {
   color: black;
 }
 
+/* Main game divs */
+.display-area {
+  width: 80%;
+}
+
+.weapons-area {
+  width: 80%;
+}
+
+/* Score Board / Results */
+.tag-name {
+  background: lightgray;
+  color: black;
+  text-transform: uppercase;
+  font-size: 60%;
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+
+#user_label {
+  position: absolute;
+  transform: translate(-12%, -50%);
+  padding-bottom: 2%;
+  top: 50%;
+  left: -5%;
+}
+
+#computer_label {
+  position: absolute;
+  transform: translate(12%, -50%);
+  padding-bottom: 2%;
+  top: 50%;
+  right: -5%;
+}
+
+.score-board {
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+  border: 3px solid #000;
+  border-radius: 5px;
+  width: 310px;
+  margin: 45px auto;
+  font-size: 45px;
+}
+
+#result_display {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 200%;
+}
+
+/* User v Computer Zone */
+.player_area {
+  width: 50%;
+  float: left;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-size: 150%;
+}
+
+.computer_area {
+  width: 50%;
+  float: right;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-size: 150%;
+}
+
+/* Weapons Text */
+#weapon_txt {
+  margin-bottom: 2.5%;
+}
+
+/* Weapon Buttons */
+.button_big {
+  padding-top: 12px;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  border: 10px solid;
+  width: 100px;
+  font-size: 3.2rem;
+  margin: 0 30px;
+  transition: all 0.5s;
+}
+
+.button_white {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.button_white:active,
+.button_white:hover {
+  background-color: #ffffff;
+  color: lightseagreen;
+}
+
+/* Win and lose gif */
+.gif {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
 
 /* Style footer */
 footer {
     text-align: center;
     margin-top: 20px;
+    bottom: 0;
   }
   
 footer li {
@@ -140,60 +256,360 @@ footer li {
     font-size: 1.5em;
     color: white;
     font-size: 50px;
+    bottom: 0;
 }
 
 footer a {
     color: white;
 }
 
-/* Scoreboard area */
-.user_score_display {
-  margin: 30px;
-  float: left;
+/* Media query max width 1200px for small desktop view */
+@media screen and (max-width: 1200px) {
+  /* Heading style */
+  .title {
+      font-size: 100%;
+      margin-top: 1.5%;
+  }
+
+  /* Game menu buttons */
+  .menu-buttons {
+      width: 50%;
+      font-size: 2.4rem;
+  }
+
+  /* Pop-ups */
+  .popupDialog > div {
+      font-size: 170%;
+  }
+
+  /* Score Board / Results */
+  #user_label {
+      font-size: 80%;
+  }
+
+  #computer_label {
+      font-size: 80%;
+  }
+
+  .score-board {
+      width: 70%;
+  }
+
+  #user_score {
+      font-size: 200%;
+  }
+
+  #computer_score {
+      font-size: 200%;
+  }
+
+  #result_display {
+      font-size: 300%;
+  }
+
+  /* Player and CPU Area */
+  .player_area {
+      font-size: 180%;
+  }
+  .computer_area {
+      font-size: 180%;
+  }
+
+  /* Weapons Text */
+  #weapon_txt {
+      font-size: 180%;
+  }
+
+  /* Gif */
+  .gif {
+      width: 80%;
+  }
 }
 
-.computer_score_display {
-  margin: 30px;
-  float: right;
+/* Media query max width 992px for small desktop view */
+@media screen and (max-width: 992px) {
+  /* Heading style */
+  .title {
+      font-size: 230%;
+      margin-top: 1.5%;
+  }
+
+  /* Game menu buttons */
+  .menu-buttons {
+      width: 50%;
+      font-size: 2.4rem;
+  }
+
+  .popupDialog > div {
+      font-size: 150%;
+  }
+
+  /* Score Board / Results */
+  #user_label {
+      font-size: 80%;
+  }
+
+  #computer_label {
+      font-size: 80%;
+  }
+
+  .score-board {
+      width: 70%;
+  }
+
+  #result_display {
+      font-size: 200%;
+  }
+
+  /* Player and CPU Area */
+  .player_area {
+      font-size: 150%;
+  }
+  .computer_area {
+      font-size: 150%;
+  }
+
+  /* Weapons Text */
+  #weapon_txt {
+      font-size: 150%;
+  }
+
+  /* Gif */
+  .gif {
+      width: 80%;
+  }
+
+  /* Style footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
+  }
+
+  footer li {
+    display: inline;
+    padding-right: 40px;
+    font-size: 3em;
+    color: white;
+    bottom: 0;
+}
 }
 
-/* Game area */
-.game_area {
-  clear: both;
-  text-align: center;
+/* Media query max width 768px for tablets */
+@media screen and (max-width: 768px) {
+  /* Heading style */
+  .title {
+      font-size: 200%;
+      margin-top: 1.5%;
+  }
+
+  /* Game menu buttons */
+  .menu-buttons {
+      width: 50%;
+      font-size: 1.7rem;
+  }
+
+  .popupDialog > div {
+      font-size: 120%;
+  }
+
+  /* Score Board / Results */
+  #user_label {
+      font-size: 60%;
+  }
+
+  #computer_label {
+      font-size: 60%;
+  }
+
+  .score-board {
+      width: 70%;
+  }
+
+  #result_display {
+      font-size: 170%;
+  }
+
+  /* Player and CPU Area */
+  .player_area {
+      font-size: 100%;
+  }
+
+  .computer_area {
+      font-size: 100%;
+  }
+
+  /* Weapons Text */
+  #weapon_txt {
+      margin-top: 10%;
+      font-size: 130%;
+  }
+
+  /* Gif */
+  .gif {
+      width: 80%;
+  }
+
+  /* Style footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  footer li {
+    display: inline;
+    padding-right: 30px;
+    font-size: 3em;
+    color: white;
+    bottom: 0;
+  }
 }
 
-.game_area h2 {
-  margin-top: 25px;
+/* Media query max width 480px for small devices and phones */
+@media screen and (max-width: 480px) {
+  /* Heading style */
+  .title {
+      font-size: 180%;
+      margin-top: 1.5%;
+  }
+
+  /* Game menu buttons */
+  .menu-buttons {
+      width: 50%;
+      font-size: 1.7rem;
+  }
+
+  .popupDialog > div {
+      font-size: 110%;
+      width: 300px;
+  }
+
+  /* Score Board / Results */
+  #user_label {
+      font-size: 60%;
+  }
+
+  #computer_label {
+      font-size: 60%;
+  }
+
+  .score-board {
+      width: 70%;
+  }
+
+  #result_display {
+      font-size: 150%;
+  }
+
+  /* Player and CPU Area */
+  .player_area {
+      font-size: 90%;
+  }
+  .computer_area {
+      font-size: 90%;
+  }
+
+  /* Weapons Text */
+  #weapon_txt {
+      margin-top: 20%;
+      font-size: 130%;
+  }
+
+  /* Gif */
+  .gif {
+      width: 80%;
+  }
+  /* Style footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
+    height: 100%;
+  }
+  footer li {
+    display: inline;
+    padding-right: 40px;
+    font-size: 1.5em;
+    color: white;
+    font-size: 50px;
+    bottom: 0;
+  }
 }
 
-.game_area i {
-  font-size: 3em;
-}
+/* Media query max width 320px for small mobile devices */
+@media screen and (max-width: 320px) {
+  /* Heading style */
+  .title {
+      font-size: 100%;
+      margin-top: 1.5%;
+  }
 
-/* Style feedback and buttons area */
-#game_feedback {
-  text-align: center;
-  margin-top: 25px;
-}
+  /* Game menu buttons */
+  .menu-buttons {
+      width: 50%;
+  }
 
-#result-section {
-  font-size: 1.2em;
-  margin-bottom: 15px;
-}
+  .popupDialog > div {
+      width: 80%;
+      font-size: 75%;
+  }
 
-.select-weapon {
-  text-align: center;
-  margin: 15px;
-}
+  /* Score Board / Results */
+  #user_label {
+      font-size: 50%;
+  }
 
-.game-button {
-  background-color: transparent;
-  color: #ffffff;
-  font-size: 2em;
-  border: 2.5px solid;
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 5px;
-  margin: 8px 8px;
+  #computer_label {
+      font-size: 50%;
+  }
+
+  .score-board {
+      width: 70%;
+  }
+
+  #result_display {
+      font-size: 130%;
+  }
+
+  /* Player and CPU Area */
+  .player_area {
+      font-size: 85%;
+  }
+  .computer_area {
+      font-size: 85%;
+  }
+
+  /* Weapons Text */
+  #weapon_txt {
+      margin-top: 40%;
+      font-size: 100%;
+  }
+
+  .button_big {
+      margin: 0;
+  }
+
+  /* Gif */
+  .gif {
+      width: 80%;
+  }
+  /* Style footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
+    height: 100%;
+  }
+
+  footer li {
+    display: inline;
+    padding-right: 40px;
+    font-size: 1.5em;
+    color: white;
+    font-size: 50px;
+    bottom: 0;
+  }
 }
