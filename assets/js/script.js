@@ -1,3 +1,5 @@
+// Reference: iKelvvv "https://github.com/iKelvvv/MS2" JavaScript layout used.
+
 const computerChoiceDisplay = document.getElementById("computer_choice");
 const userChoiceDisplay = document.getElementById("user_choice");
 const resultDisplay = document.getElementById("result_display");
