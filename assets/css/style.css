@@ -8,7 +8,7 @@ body {
 
 /* Heading */
 h1 {
-    font-size: 4.5em;
+    font-size: 5em;
     font-family: "Oswald", sans-serif;
 }
 
@@ -266,8 +266,13 @@ footer a {
 /* Media query max width 1200px for small desktop view */
 @media screen and (max-width: 1200px) {
   /* Heading style */
+  h1 {
+    font-size: 15em;
+    font-family: "Oswald", sans-serif;
+}
+
   .title {
-      font-size: 100%;
+      font-size: 5em;
       margin-top: 1.5%;
   }
 
@@ -329,8 +334,13 @@ footer a {
 /* Media query max width 992px for small desktop view */
 @media screen and (max-width: 992px) {
   /* Heading style */
+  h1 {
+    font-size: 10em;
+    font-family: "Oswald", sans-serif;
+  }
+
   .title {
-      font-size: 230%;
+      font-size: 5em;
       margin-top: 1.5%;
   }
 
@@ -398,8 +408,13 @@ footer a {
 /* Media query max width 768px for tablets */
 @media screen and (max-width: 768px) {
   /* Heading style */
+  h1 {
+    font-size: 5em;
+    font-family: "Oswald", sans-serif;
+  }
+
   .title {
-      font-size: 200%;
+      font-size: 5em;
       margin-top: 1.5%;
   }
 
@@ -471,8 +486,13 @@ footer a {
 /* Media query max width 480px for small devices and phones */
 @media screen and (max-width: 480px) {
   /* Heading style */
+  h1 {
+    font-size: 5%;
+    font-family: "Oswald", sans-serif;
+  }
+
   .title {
-      font-size: 180%;
+      font-size: 3em;
       margin-top: 1.5%;
   }
 
@@ -531,7 +551,7 @@ footer a {
   }
   footer li {
     display: inline;
-    padding-right: 40px;
+    padding-right: 20px;
     font-size: 1.5em;
     color: white;
     font-size: 50px;
@@ -542,8 +562,13 @@ footer a {
 /* Media query max width 320px for small mobile devices */
 @media screen and (max-width: 320px) {
   /* Heading style */
+  h1 {
+    font-size: 5em;
+    font-family: "Oswald", sans-serif;
+  }
+
   .title {
-      font-size: 100%;
+      font-size: 3em;
       margin-top: 1.5%;
   }
 
