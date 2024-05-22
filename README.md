@@ -120,6 +120,9 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
 
   JavaScript layout was taken from [iKelvvv](https://github.com/iKelvvv/MS2/blob/master/index.html).
 
+  ## Known Bugs
+  <li> In DevTools the website is responding well to different Media Queries but one example is when I select inspect for a screen size of iPhone 12 pro everything looks perfect, but when I deployed the website and opened it on my actual iPhone 12 pro the weapon icons are slightly off center in their boarder radius.
+
   ## Acknowledgements
   <li> My Mentor Marcel for his guidance and feedback.
   <li> My family for the support and valuable opinions.
