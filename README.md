@@ -101,3 +101,10 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
  <li> Line breaks had a trailing forward slash.
 
  ## Deployment 
+ ### GitPod and Github
+ <li> This website was developed using GitPod and then using the terminal I pushed it to GitHubs dashboard.
+ <li> Find the repository on GitPod, click on settings on the top of the page.
+ <li> In settings select "Pages" and go down to where it says "Source". Make sure to select "main" when choosing an option for "Deploy from a branch".
+ <li> Return to the code tab and give it a few minutes to build.
+ <li> Check the right hand side of the page now and the "Deployments" section should be visible.
+ <li> In Deployments will be Active deployments with a link to your website ready to open.
