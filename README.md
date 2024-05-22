@@ -119,3 +119,7 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
   Game Rules came from [Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
 
   JavaScript layout was taken from [iKelvvv](https://github.com/iKelvvv/MS2/blob/master/index.html).
+
+  ## Acknowledgements
+  <li> My Mentor Marcel for his guidance and feedback.
+  <li> My family for the support and valuable opinions.
