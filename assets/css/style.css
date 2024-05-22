@@ -542,6 +542,7 @@ footer a {
   .gif {
       width: 80%;
   }
+
   /* Style footer */
   footer {
     text-align: center;
@@ -549,6 +550,7 @@ footer a {
     bottom: 0;
     height: 100%;
   }
+
   footer li {
     display: inline;
     padding-right: 20px;
@@ -603,6 +605,7 @@ footer a {
   .player_area {
       font-size: 85%;
   }
+  
   .computer_area {
       font-size: 85%;
   }
