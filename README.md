@@ -28,7 +28,7 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
 
 ### Introducton
 ![introduction](assets/images/introduction.PNG)
-<li> The introduction expplains the game is an expansion on the original version "Rock, Paper, Scissors".
+<li> The introduction explains the game is an expansion on the original version "Rock, Paper, Scissors".
 
 ### Rules
 ![rules-popup](assets/images/rules-popup.jpg)
