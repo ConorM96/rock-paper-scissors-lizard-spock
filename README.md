@@ -108,3 +108,14 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
  <li> Return to the code tab and give it a few minutes to build.
  <li> Check the right hand side of the page now and the "Deployments" section should be visible.
  <li> In Deployments will be Active deployments with a link to your website ready to open.
+
+ ## Credits
+  Winner and Loser result GIFs came from [GIFFY](https://giphy.com/gifs/happy-birthday-gene-wilder-bkiBOCL34XzYA).
+
+  Main RPSLP logo came from [Google Images](https://images.google.com/).
+
+  Weapon icons came from [Font Awesome](https://fontawesome.com/icons).
+
+  Game Rules came from [Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
+
+  JavaScript layout was taken from [iKelvvv](https://github.com/iKelvvv/MS2/blob/master/index.html).
