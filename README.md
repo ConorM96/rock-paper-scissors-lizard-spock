@@ -80,3 +80,24 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
 
  [GitPod](https://www.gitpod.io/)
  <li> This project was created using GitPod.
+
+ ## Testing/Validation
+ ### Google DevTools
+ ![performance-rating](assets/images/performance-rating.jpg)
+
+ ### [W3C HTML Validator](https://validator.w3.org/nu/#textarea)
+ ![w3-test](assets/images/w3-test.jpg)
+ <li> No errors to be found.
+
+ ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+ ![css-test](assets/images/css-test.jpg)
+ <li> No errors to be found.
+
+ ### [JS Hint](https://jshint.com/)
+ ![JavaScript-test](assets/images/JavaScript-test.jpg)
+
+ ### Returned Errors
+ <li> Logo image names had spaces in them.
+ <li> Line breaks had a trailing forward slash.
+
+ ## Deployment 
