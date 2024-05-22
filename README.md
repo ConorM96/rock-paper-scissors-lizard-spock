@@ -50,3 +50,33 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
 ### Social Media Footer Links
 ![footer-socials](assets/images/footer-socials.jpg)
 <li> At the bottom of the main page there are 4 social media external links.
+<hr>
+
+## Technologies Used
+ [HTML5](https://en.wikipedia.org/wiki/HTML)
+ <li> This project uses HyperText Markup Language.
+ <hr>
+
+ [CSS3](https://en.wikipedia.org/wiki/CSS)
+ <li> This project uses Cascading Style Sheets.
+<hr>
+
+ [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+ <li> This project uses JavaScript.
+ <hr>
+
+ [Chrome](https://www.google.com/intl/en_uk/chrome/)
+ <li> This project uses Chrome to DevTools to test and check for errors.
+ <hr>
+
+ [Google Fonts](https://fonts.google.com/)
+ <li> This project used Google Fonts to import fonts.
+
+<hr>
+
+ [GitHub](https://github.com/)
+ <li> This project used GitHub to store the the file on the dashboard.
+<hr>
+
+ [GitPod](https://www.gitpod.io/)
+ <li> This project was created using GitPod.
