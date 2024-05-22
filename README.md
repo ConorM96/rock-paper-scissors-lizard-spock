@@ -44,7 +44,7 @@ You can see the deployed version [here](https://conorm96.github.io/rock-paper-sc
 <li> A gif will pop up when the user loses the game.
 
 ### Feedback
-![feedback](assets/images/feedback.jpg)
+![feedback-section](assets/images/feedback-section.jpg)
 <li> There is a section for any user to give some feedback or ask questions.
 
 ### Social Media Footer Links
